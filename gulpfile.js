@@ -28,6 +28,10 @@ gulp.task('watch', ['sass', 'copy.fonts', 'copy.html'], function(done) {
   bundle(true, done);
 });
 
+gulp.task("default", [], function(done) {
+    
+});
+
 
 /******************************************************************************
  * build
